@@ -12,3 +12,10 @@ KubeLilin的操作UI使用React的TypeScript版本进行编写，样式组件使
 [AntDeignPro 文档地址](https://pro.ant.design/)
 
 ## 项目启动
+### 服务端源码下载
+ ```
+ git clone  https://github.com/KubeLilin/kubelilin.git
+
+ 
+ ### 数据库初始化
+ 
