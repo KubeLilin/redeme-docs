@@ -73,6 +73,8 @@ kubelilin支持多配置文件，真正读取哪个配置文件由启动时的�
 ``` shell
 go build
 ```
-编译成功后会出现一个名为 kubelilin的可执行文件，直接运行kubelilin即可。
+编译成功后会出现一个名为 kubelilin的可执行文件，直接运行kubelilin即可,这里需要注意，配置文件是不会被build打入可执行文件的，所以配置文件和可执行文件要在同一目录下。
 
 也可以使用IDE打开源码，运行main文件中的main方法
+启动成功后，控制台会输出相关信息，如下图：
+![](https://mnur-prod-public.oss-cn-beijing.aliyuncs.com/empx/run.png)
